@@ -1,12 +1,13 @@
 This is sumary of solution for 4 excercise of class 2 - VBI- Rust Workshop
+(I also commented in main.rs file)
 
-Excercise 1:
+1) Excercise 1:
 - Solution 1: add "&mut" to front of second argument 20 (line 9)
     
 - Solution 2: remove "reference" of argument output (line 14) and remove "dereference" of output inside function (line 16, 19 & 22)
 
 
-Excercise 2:
+2) Excercise 2:
 - Solution 1: 
   - Step 1, argument "p" is changed to borrow type (line 46)
   - Step 2, borrow primes instead of taking ownership (line 37)
@@ -19,12 +20,12 @@ Excercise 2:
   - Step 4, line 60 should be return false
 
 
-Excercise 3:
+3) Excercise 3:
 - Solution 1: reborrow "v", from "v" to "&mut *v" (line 74)
 - Solution 2: add into_iter() to "v" (line74)
 
 
-Exercise 4:
+4) Exercise 4:
 - Solution: 
   - Step 1, change a to mutable (line 92)
   - Step 2, mutable reference a instead of taking ownership (line 96 & 102)
